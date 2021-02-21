@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kotlin Testing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="topNavBar">
+        <button id="goToMid">Tip Calculator</button>
+        <button id="goToBot">Ball Game</button>
+    </div>
+    <div id="top">
+        <div id="hangman">
+            <h1>Hang Man</h1>
+            <select id="chooseDifficulty">
+                <option value="4">Easy</option>
+                <option value="5">Medium</option>
+                <option value="6">Hard</option>
+                <option value="7">Harder</option>
+            </select>
+            <button id="startHangman">Start Game</button>
+            <h2 id="blanks" class="hide"></h2>
+            <input id="enterLetter" class="hide" type="text" placeholder="Guess Letter">
+            <input id="enterWord" class="hide" type="text" placeholder="Guess Word">
+            <button id="guessBtn" class="hide">Guess!</button>
+            <h3 id="guessIndicator" class="hide"></h3>
+            <p id="guessedLetters" class="hide"></p>
+            <button id="restart" class="hide">restart</button>
+        </div>
+    </div>
+    <div id="mid">
+        <div id="tipCalc">
+            <h1>Tip Calculator</h1>
+            <input id="billPrice" type="text" placeholder="Enter Bill Amount">
+            <input id="tipPercent" type="text" placeholder="Enter Tip Percentage">
+            <input id="numOfPeople" type="text" placeholder="# of People Splitting Bill">
+            <button id="submit">Calculate!</button>
+            <h2 id="amtPerPerson"></h2>
+        </div>
+    </div>
+    <div id="bot">
+        <div id="botGame">
+            <h1>Coming Soon</h1>
+        </div>
+    </div>
+    <div id="botNavBar">
+        <button id="goToTop">Back to Top</button>
+    </div>
+
+    <script src="kotlin.js"></script>
+    <script src="kotlinPage.js"></script>
+
+</body>
+</html>
